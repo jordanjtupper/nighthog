@@ -1,1 +1,43 @@
 
+/* =============================================
+   NIGHT HOG — nighthogbr.com
+   Dark vintage rock · Baton Rouge, Louisiana
+   ============================================= */
+
+/* ---- Custom Properties ---- */
+:root {
+  --black:       #0a0806;
+  --near-black:  #111009;
+  --dark:        #1a1710;
+  --dark-mid:    #252118;
+  --amber:       #d4822a;
+  --amber-light: #e8a048;
+  --amber-dim:   #9a5e1e;
+  --cream:       #f0e8d8;
+  --cream-dim:   #c8bda8;
+  --off-white:   #e8dfd0;
+  --red-hot:     #c0392b;
+  --smoke:       rgba(240,232,216,0.06);
+
+  --font-display: 'Playfair Display', Georgia, serif;
+  --font-condensed: 'Barlow Condensed', Arial Narrow, sans-serif;
+  --font-body: 'Barlow', system-ui, sans-serif;
+
+  --radius: 2px;
+  --max-w: 1180px;
+  --nav-h: 64px;
+  --section-gap: 100px;
+
+  --transition: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ---- Logo Image ---- */
+.nav-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo-img {
+  width: 44px;
+  height: 44px;
+  obj

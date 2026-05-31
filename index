@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Night Hog | Baton Rouge Classic Rock, Funk & Soul Cover Band</title>
+  <meta name="description" content="Night Hog is Baton Rouge's premier classic rock, funk, and soul cover band — delivering high-energy live performances across Louisiana. Book us for your next event." />
+  <meta name="keywords" content="Night Hog, Baton Rouge cover band, classic rock band Louisiana, funk soul band Baton Rouge, live music Baton Rouge, band booking Louisiana" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://nighthogbr.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://nighthogbr.com/" />
+  <meta property="og:title" content="Night Hog | Baton Rouge Classic Rock, Funk & Soul" />
+  <meta property="og:description" content="Night Hog is Baton Rouge's premier classic rock, funk, and soul cover band. Book us for your next event." />
+  <meta property="og:image" content="https://nighthogbr.com/images/nighthog-logo.png" />
+  <link rel="icon" type="image/png" href="images/nighthog-logo.png" />
+  <link rel="apple-touch-icon" href="images/nighthog-logo.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Night Hog | Baton Rouge Classic Rock, Funk & Soul" />
+  <meta name="twitter:description" content="Baton Rouge's premier classic rock, funk, and soul cover band." />
+
+  <!-- Schema.org structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MusicGroup",
+    "name": "Night Hog",
+    "url": "https://nighthogbr.com",
+    "description": "Night Hog is a Baton Rouge classic rock, funk, and soul cover band performing across Louisiana.",
+    "genre": ["Classic Rock", "Funk", "Soul"],
+    "foundingLocation": {
+      "@type": "Place",
+      "name": "Baton Rouge, Louisiana"
+    },
+    "member": [
+      { "@type": "OrganizationRole", "member": { "@type": "Person", "name": "Jordan Tupper" }, "roleName": "Bass, Vocals" },
+      { "@type": "OrganizationRole", "member": { "@type": "Person", "name": "Wade Jackson" }, "roleName": "Guitar, Vocals" },
+      { "@type": "OrganizationRole", "member": { "@type": "Person", "name": "Zach Bourque" }, "roleName": "Drums" }
+    ],
+    "sameAs": [
+      "https://www.youtube.com/@nighthogbr"
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Main navigation">
+      <a href="/" class="nav-logo" aria-label="Night Hog Home">
+        <img src="images/nighthog-logo.png" alt="Night Hog" class="nav-logo-img" width="44" height="44" />
+        <span class="logo-text">NIGHT<em>HOG</em></span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#videos">Videos</a></li>
+        <li><a href="#shows">Shows</a></li>
+        <li><a href="#setlist">Setlist</a></li>
+        <li><a href="#photos">Photos</a></li>
+        <li><a href="#booking" class="nav-cta">Book Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="hero" aria-label="Hero">
+      <div class="hero-bg">
+        <div class="hero-noise"></div>
+        <div class="hero-vignette"></div>
+      </div>
+      <div class="hero-content">
+        <img src="images/nighthog-logo.png" alt="Night Hog boar logo" class="hero-logo" width="180" height="180" />
+        <p class="hero-eyebrow">Baton Rouge, Louisiana</p>
+        <h1 class="hero-title">
+          <span class="hero-title-line">NIGHT</span>
+          <span class="hero-title-line accent">HOG</span>
+        </h1>
+        <p class="hero-tagline">Classic Rock · Funk · Soul</p>
+        <p class="hero-sub">High-energy live music that moves the room — from the swamps of South Louisiana to your stage.</p>
+        <div class="hero-actions">
+          <a href="#booking" class="btn btn-primary">Book Night Hog</a>
+          <a href="#videos" class="btn btn-ghost">Watch Us Play</a>
+        </div>
+      </div>
+      <div class="hero-scroll-hint" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section about" id="about" aria-labelledby="about-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">01 / About</div>
+        <div class="about-grid">
+          <div class="about-text">
+            <h2 id="about-heading" class="section-title">The Band</h2>
+            <p class="lead">Night Hog is Wade, Zach, and Jordan — three guys who probably should have grown out of this by now but show no signs of stopping.</p>
+            <p>Based out of Baton Rouge, they've been covering classic rock and getting rooms moving across Louisiana since before it was cool. Night Hog doesn't reinvent the wheel. They just make the wheel louder, sweatier, and more fun than you expected on a Tuesday.</p>
+            <p>From dive bars to backyard parties to venues that actually have stages, they bring the same energy every time: tight grooves, big riffs, and a genuine love for playing music for people who want to have a good time.</p>
+            <p class="bio-quote">"Phenomenal." "Reeeeally good." "Surprisingly good looking."<br><em>— Real quotes. From real people. We're just as surprised as you are.</em></p>
+          </div>
+          <div class="members-grid">
+            <article class="member-card">
+              <div class="member-img-wrap">
+                <img src="images/jordan-tupper.jpg" alt="Jordan Tupper, bass and vocals for Night Hog" width="300" height="300" loading="lazy" onerror="this.parentElement.classList.add('img-fallback')" />
+                <div class="member-instrument">Bass / Vocals</div>
+              </div>
+              <h3 class="member-name">Jordan Tupper</h3>
+            </article>
+            <article class="member-card">
+              <div class="member-img-wrap">
+                <img src="images/wade-jackson.jpg" alt="Wade Jackson, guitar and vocals for Night Hog" width="300" height="300" loading="lazy" onerror="this.parentElement.classList.add('img-fallback')" />
+                <div class="member-instrument">Guitar / Vocals</div>
+              </div>
+              <h3 class="member-name">Wade Jackson</h3>
+            </article>
+            <article class="member-card">
+              <div class="member-img-wrap">
+                <img src="images/zach-bourque.jpg" alt="Zach Bourque, drums for Night Hog" width="300" height="300" loading="lazy" onerror="this.parentElement.classList.add('img-fallback')" />
+                <div class="member-instrument">Drums</div>
+              </div>
+              <h3 class="member-name">Zach Bourque</h3>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIDEOS -->
+    <section class="section videos-section" id="videos" aria-labelledby="videos-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">02 / Videos</div>
+        <h2 id="videos-heading" class="section-title">Watch Us Live</h2>
+        <p class="section-intro">See what Night Hog sounds like in the room. Raw, loud, and locked in.</p>
+        <div class="videos-grid">
+
+          <!-- Replace src values with real Night Hog YouTube embed URLs -->
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/videoseries?list=PLplaceholder1"
+                title="Night Hog live performance video 1"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+            <p class="video-caption">Live at [Venue Name]</p>
+          </div>
+
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/videoseries?list=PLplaceholder2"
+                title="Night Hog live performance video 2"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+            <p class="video-caption">Live at [Venue Name]</p>
+          </div>
+
+          <div class="video-card">
+            <div class="video-wrap">
+              <iframe
+                src="https://www.youtube.com/embed/videoseries?list=PLplaceholder3"
+                title="Night Hog live performance video 3"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
+            <p class="video-caption">Live at [Venue Name]</p>
+          </div>
+
+        </div>
+        <div class="videos-cta">
+          <a href="https://www.youtube.com/@nighthogbr" target="_blank" rel="noopener noreferrer" class="btn btn-ghost">More on YouTube ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- UPCOMING SHOWS -->
+    <section class="section shows-section" id="shows" aria-labelledby="shows-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">03 / Shows</div>
+        <h2 id="shows-heading" class="section-title">Upcoming Shows</h2>
+        <p class="section-intro">Come see us live. We do this for the rooms, not the recordings.</p>
+        <ol class="shows-list" role="list">
+          <li class="show-item">
+            <span class="show-date"><span class="show-month">Jun</span><span class="show-day">5</span></span>
+            <div class="show-info">
+              <h3 class="show-venue">Charlie's Lounge</h3>
+              <p class="show-location">Addis, LA</p>
+            </div>
+            <span class="show-time">8:00 PM</span>
+          </li>
+          <li class="show-item">
+            <span class="show-date"><span class="show-month">Jun</span><span class="show-day">12</span></span>
+            <div class="show-info">
+              <h3 class="show-venue">Scoreboards</h3>
+              <p class="show-location">Denham Springs, LA</p>
+            </div>
+            <span class="show-time">8:00 PM</span>
+          </li>
+          <li class="show-item">
+            <span class="show-date"><span class="show-month">Jun</span><span class="show-day">13</span></span>
+            <div class="show-info">
+              <h3 class="show-venue">BeerBellys</h3>
+              <p class="show-location">Plaquemine, LA</p>
+            </div>
+            <span class="show-time">7:00 PM</span>
+          </li>
+          <li class="show-item">
+            <span class="show-date"><span class="show-month">Jun</span><span class="show-day">19</span></span>
+            <div class="show-info">
+              <h3 class="show-venue">Big J's Side Porch</h3>
+              <p class="show-location">Clinton, LA</p>
+            </div>
+            <span class="show-time">7:00 PM</span>
+          </li>
+          <li class="show-item">
+            <span class="show-date"><span class="show-month">Jun</span><span class="show-day">20</span></span>
+            <div class="show-info">
+              <h3 class="show-venue">Brickyard South</h3>
+              <p class="show-location">Baton Rouge, LA</p>
+            </div>
+            <span class="show-time">9:00 PM</span>
+          </li>
+          <li class="show-item">
+            <span class="show-date"><span class="show-month">Jun</span><span class="show-day">27</span></span>
+            <div class="show-info">
+              <h3 class="show-venue">The Moonlight Inn</h3>
+              <p class="show-location">French Settlement, LA</p>
+            </div>
+            <span class="show-time">9:00 PM</span>
+          </li>
+          <li class="show-item">
+            <span class="show-date"><span class="show-month">Aug</span><span class="show-day">28</span></span>
+            <div class="show-info">
+              <h3 class="show-venue">Charlie's Lounge</h3>
+              <p class="show-location">Addis, LA</p>
+            </div>
+            <span class="show-time">8:00 PM</span>
+          </li>
+          <li class="show-item">
+            <span class="show-date"><span class="show-month">Aug</span><span class="show-day">29</span></span>
+            <div class="show-info">
+              <h3 class="show-venue">The Moonlight Inn</h3>
+              <p class="show-location">French Settlement, LA</p>
+            </div>
+            <span class="show-time">9:00 PM</span>
+          </li>
+          <li class="show-item">
+            <span class="show-date"><span class="show-month">Oct</span><span class="show-day">24</span></span>
+            <div class="show-info">
+              <h3 class="show-venue">The Moonlight Inn</h3>
+              <p class="show-location">French Settlement, LA</p>
+            </div>
+            <span class="show-time">9:00 PM</span>
+          </li>
+          <li class="show-item">
+            <span class="show-date"><span class="show-month">Dec</span><span class="show-day">19</span></span>
+            <div class="show-info">
+              <h3 class="show-venue">The Moonlight Inn</h3>
+              <p class="show-location">French Settlement, LA</p>
+            </div>
+            <span class="show-time">9:00 PM</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SETLIST -->
+    <section class="section setlist-section" id="setlist" aria-labelledby="setlist-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">04 / Setlist</div>
+        <h2 id="setlist-heading" class="section-title">What We Play</h2>
+        <p class="section-intro">A cross-section of what we bring to the stage. We cover decades of rock, funk, and soul — tailored to your crowd and event.</p>
+        <div class="setlist-grid">
+
+          <div class="setlist-column">
+            <h3 class="setlist-genre">Classic Rock</h3>
+            <ul class="setlist" role="list">
+              <li>Whole Lotta Love — Led Zeppelin</li>
+              <li>Sunshine of Your Love — Cream</li>
+              <li>Purple Haze — Jimi Hendrix</li>
+              <li>The Weight — The Band</li>
+              <li>Black Magic Woman — Santana</li>
+              <li>Rock and Roll — Led Zeppelin</li>
+              <li>Fortunate Son — CCR</li>
+              <li>La Grange — ZZ Top</li>
+              <li>Highway to Hell — AC/DC</li>
+              <li>Sweet Home Chicago — Robert Johnson</li>
+            </ul>
+          </div>
+
+          <div class="setlist-column">
+            <h3 class="setlist-genre">Funk</h3>
+            <ul class="setlist" role="list">
+              <li>Give It Up or Turnit a Loose — James Brown</li>
+              <li>Thank You (Falettinme Be Mice Elf Agin) — Sly & the Family Stone</li>
+              <li>Superstition — Stevie Wonder</li>
+              <li>Pick Up the Pieces — Average White Band</li>
+              <li>Jungle Boogie — Kool & the Gang</li>
+              <li>Flash Light — Parliament</li>
+              <li>Le Freak — Chic</li>
+              <li>Play That Funky Music — Wild Cherry</li>
+            </ul>
+          </div>
+
+          <div class="setlist-column">
+            <h3 class="setlist-genre">Soul & R&B</h3>
+            <ul class="setlist" role="list">
+              <li>Mustang Sally — Wilson Pickett</li>
+              <li>Soul Man — Sam & Dave</li>
+              <li>Knock on Wood — Eddie Floyd</li>
+              <li>I Can't Help Myself — Four Tops</li>
+              <li>Respect — Aretha Franklin</li>
+              <li>Higher Ground — Stevie Wonder</li>
+              <li>Try a Little Tenderness — Otis Redding</li>
+              <li>Signed, Sealed, Delivered — Stevie Wonder</li>
+            </ul>
+          </div>
+
+        </div>
+        <p class="setlist-note">* Setlist is a sample. Night Hog maintains a deep catalog and can tailor the set for weddings, corporate events, festivals, and bar nights. <a href="#booking">Get in touch</a> to discuss your event.</p>
+      </div>
+    </section>
+
+    <!-- PHOTOS -->
+    <section class="section photos-section" id="photos" aria-labelledby="photos-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">05 / Photos</div>
+        <h2 id="photos-heading" class="section-title">Live Shots</h2>
+      </div>
+      <div class="photos-grid" role="list" aria-label="Band photos">
+        <figure class="photo-item" role="listitem">
+          <img src="https://images.zoogletools.com/s:bzglfiles/u/803159/ea76b105c886016bec1bcfc34a3c0899094cb724/original/a820d01a-51a1-476d-b52a-e485b6b4005c.jpg/!!/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.jpg" alt="Night Hog band photo" width="800" height="800" loading="lazy" />
+        </figure>
+        <figure class="photo-item" role="listitem">
+          <img src="https://images.zoogletools.com/s:bzglfiles/u/803159/7a843ac56bd8d549768fbcf4048054d346a9a579/original/img-0067.jpg/!!/b%3AW1sicmVzaXplIixbODAwLG51bGwseyJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWUsImZpdCI6Im91dHNpZGUifV1dXQ%3D%3D/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.jpg" alt="Night Hog live performance" width="800" height="600" loading="lazy" />
+        </figure>
+        <figure class="photo-item" role="listitem">
+          <img src="https://images.zoogletools.com/s:bzglfiles/u/803159/25aec9c3f1a0c53253088bdb67ea113a25be5fbe/original/img-0978.jfif/!!/b%3AW1sicmVzaXplIixbODAwLG51bGwseyJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWUsImZpdCI6Im91dHNpZGUifV1dXQ%3D%3D/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.jfif" alt="Night Hog at a show" width="800" height="600" loading="lazy" />
+        </figure>
+        <figure class="photo-item" role="listitem">
+          <img src="https://images.zoogletools.com/s:bzglfiles/u/803159/16bd64474eeac4d69f0901df54cb10f8dbbab551/original/untitled-design.jpg/!!/b%3AW1sicmVzaXplIixbODAwLG51bGwseyJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWUsImZpdCI6Im91dHNpZGUifV1dXQ%3D%3D/meta%3AeyJzcmNCdWNrZXQiOiJiemdsZmlsZXMifQ%3D%3D.jpg" alt="Night Hog promotional photo" width="800" height="600" loading="lazy" />
+        </figure>
+        <!-- Add more photos by dropping files in /images/ and referencing them here -->
+        <figure class="photo-item photo-item--placeholder" role="listitem" aria-hidden="true">
+          <div class="photo-placeholder">📸 Add more photos</div>
+        </figure>
+        <figure class="photo-item photo-item--placeholder" role="listitem" aria-hidden="true">
+          <div class="photo-placeholder">📸 Add more photos</div>
+        </figure>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section class="section booking-section" id="booking" aria-labelledby="booking-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">06 / Booking</div>
+        <div class="booking-grid">
+          <div class="booking-text">
+            <h2 id="booking-heading" class="section-title">Book Night Hog</h2>
+            <p class="lead">Ready to bring the heat to your venue, event, or private party?</p>
+            <p>Night Hog is available for bars and venues, corporate events, weddings and private parties, festivals, and fundraisers across Baton Rouge, Louisiana, and the surrounding region.</p>
+
+            <!-- GigSalad CTA -->
+            <div class="gigsalad-block">
+              <p class="gigsalad-label">Book us securely through GigSalad</p>
+              <a href="https://www.gigsalad.com/Music_Groups/Cover_Band/night-hog/se-baton-rouge-louisiana"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 class="btn-gigsalad"
+                 aria-label="Get a free quote from Night Hog on GigSalad">
+                <svg class="gigsalad-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" width="20" height="20">
+                  <circle cx="12" cy="12" r="10" fill="#f26522"/>
+                  <path d="M8 12h8M12 8l4 4-4 4" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Get a Free Quote on GigSalad
+              </a>
+              <p class="gigsalad-trust">✓ Verified reviews &nbsp;·&nbsp; ✓ Secure payments &nbsp;·&nbsp; ✓ Worry-Free Guarantee</p>
+            </div>
+            <ul class="booking-details" role="list">
+              <li>
+                <span class="detail-label">Location</span>
+                <span class="detail-value">Baton Rouge, Louisiana &amp; Surrounding Region</span>
+              </li>
+              <li>
+                <span class="detail-label">Availability</span>
+                <span class="detail-value">Fridays, Saturdays &amp; select weeknights</span>
+              </li>
+              <li>
+                <span class="detail-label">Set Length</span>
+                <span class="detail-value">1–3 sets (45–60 min each)</span>
+              </li>
+              <li>
+                <span class="detail-label">Email</span>
+                <span class="detail-value"><a href="mailto:booking@nighthogbr.com">booking@nighthogbr.com</a></span>
+              </li>
+            </ul>
+          </div>
+          <div class="booking-form-wrap">
+            <form class="booking-form" name="booking" method="POST" data-netlify="true" action="/thanks.html" novalidate>
+              <!-- For GitHub Pages, this form posts via Formspree or similar; update action URL accordingly -->
+              <input type="hidden" name="form-name" value="booking" />
+              <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" name="name" required autocomplete="name" placeholder="Jane Smith" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required autocomplete="email" placeholder="jane@example.com" />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" placeholder="(225) 555-0100" />
+              </div>
+              <div class="form-group">
+                <label for="event-type">Event Type *</label>
+                <select id="event-type" name="event-type" required>
+                  <option value="" disabled selected>Select an event type</option>
+                  <option value="bar-venue">Bar / Venue</option>
+                  <option value="wedding">Wedding / Private Party</option>
+                  <option value="corporate">Corporate Event</option>
+                  <option value="festival">Festival</option>
+                  <option value="fundraiser">Fundraiser</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="event-date">Event Date</label>
+                <input type="date" id="event-date" name="event-date" />
+              </div>
+              <div class="form-group">
+                <label for="message">Tell Us About Your Event</label>
+                <textarea id="message" name="message" rows="4" placeholder="Venue name, location, expected attendance, set length..."></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary btn-full">Send Inquiry</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-logo">
+        <img src="images/nighthog-logo.png" alt="Night Hog" class="footer-logo-img" width="56" height="56" />
+        <span class="logo-text">NIGHT<em>HOG</em></span>
+        <p>Baton Rouge, Louisiana</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#videos">Videos</a>
+        <a href="#shows">Shows</a>
+        <a href="#setlist">Setlist</a>
+        <a href="#photos">Photos</a>
+        <a href="#booking">Book Us</a>
+      </nav>
+      <div class="footer-social">
+        <a href="https://www.youtube.com/@nighthogbr" target="_blank" rel="noopener noreferrer" aria-label="Night Hog on YouTube">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31 31 0 0 0 0 12a31 31 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31 31 0 0 0 24 12a31 31 0 0 0-.5-5.8zM9.7 15.5V8.5l6.3 3.5-6.3 3.5z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/nighthogbr" target="_blank" rel="noopener noreferrer" aria-label="Night Hog on Facebook">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M24 12.07C24 5.41 18.63 0 12 0S0 5.41 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.49 0-1.95.93-1.95 1.88v2.27h3.32l-.53 3.5h-2.79V24C19.61 23.1 24 18.1 24 12.07z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/nighthogbr" target="_blank" rel="noopener noreferrer" aria-label="Night Hog on Instagram">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        </a>
+      </div>
+      <p class="footer-copy">&copy; <span id="year"></span> Night Hog. All rights reserved. | Baton Rouge, LA</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

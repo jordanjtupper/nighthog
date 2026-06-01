@@ -47,6 +47,29 @@
   }
   </script>
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Jordan Tupper",
+    "url": "https://www.jordantupper.com",
+    "jobTitle": "Bassist, Vocalist, Educator, Band Director",
+    "description": "Jordan Tupper is a Baton Rouge-based bassist, vocalist, and educator. Member of Night Hog, worship leader, and creative collaborator across music, education, and community.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Baton Rouge",
+      "addressRegion": "Louisiana"
+    },
+    "sameAs": [
+      "https://www.jordantupper.com",
+      "https://www.jordantuppermusic.com",
+      "https://www.youtube.com/@jordanjtupper",
+      "https://linkedin.com/in/jordantupper225"
+    ],
+    "knowsAbout": ["Bass Guitar", "Music Education", "Band Direction", "Vocals", "Live Performance", "Baton Rouge Music Scene"]
+  }
+  </script>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;0,900;1,700&family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@300;400;500&display=swap" rel="stylesheet">
@@ -1100,6 +1123,36 @@ ul { list-style: none; }
   border-bottom: none !important;
   padding-top: 12px !important;
 }
+
+.footer-network {
+  background: var(--black);
+  border-top: 1px solid rgba(240,232,216,0.04);
+  padding: 16px clamp(20px, 5vw, 64px);
+  text-align: center;
+}
+.footer-network-label {
+  font-family: var(--font-condensed);
+  font-size: 0.65rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: rgba(154,94,30,0.35);
+  margin-bottom: 6px;
+}
+.footer-network nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px 20px;
+}
+.footer-network a {
+  font-family: var(--font-condensed);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  color: rgba(200,189,168,0.2);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-network a:hover { color: rgba(200,189,168,0.5); }
 </style>
 </head>
 <body>
@@ -1550,7 +1603,20 @@ ul { list-style: none; }
       </div>
       <p class="footer-copy">&copy; <span id="year"></span> Night Hog. All rights reserved. | Baton Rouge, LA</p>
     </div>
-  </footer>
+  
+  <!-- Related Sites -->
+  <div class="footer-network">
+    <p class="footer-network-label">Jordan Tupper</p>
+    <nav aria-label="Related sites">
+      <a href="https://www.jordantupper.com" rel="me">jordantupper.com</a>
+      <a href="https://www.jordantuppermusic.com" rel="me">jordantuppermusic.com</a>
+      <a href="https://www.cover6band.com">cover6band.com</a>
+      <a href="https://www.batonrougejazz.com">batonrougejazz.com</a>
+      <a href="https://www.thinksday.org">thinksday.org</a>
+      <a href="https://www.pinandpostco.com">pinandpostco.com</a>
+    </nav>
+  </div>
+</footer>
 
   <script>
 /* Night Hog — main.js */

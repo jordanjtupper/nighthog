@@ -1213,6 +1213,18 @@ ul { list-style: none; }
   transition: color 0.3s ease;
 }
 .footer-network a:hover { color: rgba(200,189,168,0.5); }
+
+/* ---- SOCIAL FEED ---- */
+.social-section { background: var(--near-black); border-top: 1px solid rgba(212,130,42,0.1); }
+.social-feed-wrap {
+  display: flex;
+  justify-content: center;
+  background: var(--dark);
+  border: 1px solid rgba(212,130,42,0.15);
+  padding: 24px;
+  min-height: 640px;
+}
+.fb-page { max-width: 100%; }
 </style>
   <script type="application/ld+json">
   {
@@ -1360,6 +1372,7 @@ ul { list-style: none; }
         <li><a href="#shows">Shows</a></li>
         <li><a href="#setlist">Setlist</a></li>
         <li><a href="#photos">Photos</a></li>
+        <li><a href="#social">Social</a></li>
         <li><a href="#booking" class="nav-cta">Book Us</a></li>
       </ul>
     </nav>
@@ -1691,10 +1704,32 @@ ul { list-style: none; }
       </div>
     </section>
 
+
+    <!-- SOCIAL FEED -->
+    <section class="section social-section" id="social" aria-labelledby="social-heading">
+      <div class="container">
+        <div class="section-label" aria-hidden="true">06 / Social</div>
+        <h2 id="social-heading" class="section-title">Latest from Night Hog</h2>
+        <p class="section-intro">Follow along for show announcements, videos, and whatever we feel like posting.</p>
+        <div class="social-feed-wrap">
+          <div class="fb-page"
+            data-href="https://www.facebook.com/nighthog.br"
+            data-tabs="timeline"
+            data-width="500"
+            data-height="600"
+            data-small-header="false"
+            data-adapt-container-width="true"
+            data-hide-cover="false"
+            data-show-facepile="true">
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- BOOKING -->
     <section class="section booking-section" id="booking" aria-labelledby="booking-heading">
       <div class="container">
-        <div class="section-label" aria-hidden="true">06 / Booking</div>
+        <div class="section-label" aria-hidden="true">07 / Booking</div>
         <div class="booking-grid">
           <div class="booking-text">
             <h2 id="booking-heading" class="section-title">Book Night Hog</h2>
@@ -1800,6 +1835,7 @@ ul { list-style: none; }
         <a href="#shows">Shows</a>
         <a href="#setlist">Setlist</a>
         <a href="#photos">Photos</a>
+        <a href="#social">Social</a>
         <a href="#booking">Book Us</a>
       </nav>
       <div class="footer-social">
@@ -1830,6 +1866,12 @@ ul { list-style: none; }
   </div>
 </footer>
 
+    <!-- Facebook SDK -->
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous"
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"
+    nonce="nighthog">
+  </script>
   <script>
 /* Night Hog — main.js */
 

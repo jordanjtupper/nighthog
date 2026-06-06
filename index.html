@@ -1236,6 +1236,43 @@ ul { list-style: none; }
   min-height: 640px;
 }
 .fb-page { max-width: 100%; }
+
+/* ---- VENUES ---- */
+.venues-section { background: var(--dark); border-top: 1px solid rgba(212,130,42,0.1); }
+.venues-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  margin-bottom: 32px;
+}
+.venue-region-title {
+  font-family: var(--font-condensed);
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--amber);
+  border-bottom: 1px solid rgba(212,130,42,0.2);
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+}
+.venue-list li {
+  font-family: var(--font-condensed);
+  font-size: 0.95rem;
+  color: var(--cream-dim);
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(240,232,216,0.05);
+}
+.venues-note {
+  font-size: 0.85rem;
+  color: var(--amber-dim);
+  font-style: italic;
+  border-left: 2px solid var(--amber-dim);
+  padding-left: 16px;
+}
+.venues-note a { color: var(--amber); }
+@media (max-width: 900px) { .venues-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .venues-grid { grid-template-columns: 1fr 1fr; } }
 </style>
   <script type="application/ld+json">
   {
@@ -1361,6 +1398,22 @@ ul { list-style: none; }
         "name": "Book Night Hog",
         "item": "https://nighthogbr.com/#booking"
       }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Night Hog Performance Venues",
+    "description": "Venues and locations where Night Hog performs live music in Louisiana",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Brickyard South", "item": { "@type": "BarOrPub", "name": "Brickyard South", "address": { "@type": "PostalAddress", "addressLocality": "Baton Rouge", "addressRegion": "LA" } } },
+      { "@type": "ListItem", "position": 2, "name": "Scoreboards", "item": { "@type": "BarOrPub", "name": "Scoreboards", "address": { "@type": "PostalAddress", "addressLocality": "Denham Springs", "addressRegion": "LA" } } },
+      { "@type": "ListItem", "position": 3, "name": "Charlie's Lounge", "item": { "@type": "BarOrPub", "name": "Charlie's Lounge", "address": { "@type": "PostalAddress", "addressLocality": "Addis", "addressRegion": "LA" } } },
+      { "@type": "ListItem", "position": 4, "name": "The Moonlight Inn", "item": { "@type": "BarOrPub", "name": "The Moonlight Inn", "address": { "@type": "PostalAddress", "addressLocality": "French Settlement", "addressRegion": "LA" } } },
+      { "@type": "ListItem", "position": 5, "name": "BeerBellys", "item": { "@type": "BarOrPub", "name": "BeerBellys", "address": { "@type": "PostalAddress", "addressLocality": "Plaquemine", "addressRegion": "LA" } } },
+      { "@type": "ListItem", "position": 6, "name": "Big J's Side Porch", "item": { "@type": "BarOrPub", "name": "Big J's Side Porch", "address": { "@type": "PostalAddress", "addressLocality": "Clinton", "addressRegion": "LA" } } }
     ]
   }
   </script>
@@ -1716,6 +1769,8 @@ ul { list-style: none; }
     </section>
 
 
+
+
     <!-- SOCIAL FEED -->
     <section class="section social-section" id="social" aria-labelledby="social-heading">
       <div class="container">
@@ -1832,6 +1887,7 @@ ul { list-style: none; }
     <p>Band members include Jordan Tupper on bass and vocals, Wade Jackson on guitar and vocals, and Zach Bourque on drums. Night Hog has performed at venues across Baton Rouge, New Orleans, Lafayette, Denham Springs, Addis, Plaquemine, Clinton, and French Settlement, Louisiana.</p>
     <p>Book Night Hog for your next event in Baton Rouge, Louisiana. Classic rock cover band. Funk band Louisiana. Soul band Baton Rouge. Live music for hire. Wedding band Louisiana. Corporate entertainment Baton Rouge. Party band Gulf Coast.</p>
     <p>Contact: booking@nighthogbr.com | nighthogbr.com | GigSalad: gigsalad.com/night_hog_baton_rouge</p>
+    <p>Night Hog performs live music at venues across South Louisiana including Brickyard South Baton Rouge, Scoreboards Denham Springs, Charlie's Lounge Addis Louisiana, The Moonlight Inn French Settlement Louisiana, BeerBellys Plaquemine Louisiana, Big J's Side Porch Clinton Louisiana. Live music events in Addis LA, events in French Settlement LA, events in Denham Springs LA, events in Plaquemine LA, events in Clinton LA, events in Maringoun LA, events in Maurepas LA, live bands near Baton Rouge, cover bands playing tonight Louisiana, what bands are playing in Baton Rouge, live music this weekend Baton Rouge Louisiana.</p>
   </div>
   <footer class="site-footer" role="contentinfo">
     <div class="container footer-inner">

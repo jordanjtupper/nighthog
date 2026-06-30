@@ -2176,90 +2176,8 @@ ul { list-style: none; }
         <div class="section-label" aria-hidden="true">03 / Shows</div>
         <h2 id="shows-heading" class="section-title">Upcoming Shows</h2>
         <p class="section-intro">Come see us live. We do this for the rooms, not the recordings.</p>
-        <ol class="shows-list" role="list">
-          <li class="show-item" data-date="2026-06-12">
-            <span class="show-date"><span class="show-month">Jun</span><span class="show-day">12</span></span>
-            <div class="show-info">
-              <h3 class="show-venue">Scoreboards</h3>
-              <p class="show-location">Denham Springs, LA</p>
-            </div>
-            <span class="show-time">8:00 PM</span>
-          </li>
-          <li class="show-item" data-date="2026-06-13">
-            <span class="show-date"><span class="show-month">Jun</span><span class="show-day">13</span></span>
-            <div class="show-info">
-              <h3 class="show-venue">BeerBellys</h3>
-              <p class="show-location">Plaquemine, LA</p>
-            </div>
-            <span class="show-time">7:00 PM</span>
-          </li>
-          <li class="show-item" data-date="2026-06-19">
-            <span class="show-date"><span class="show-month">Jun</span><span class="show-day">19</span></span>
-            <div class="show-info">
-              <h3 class="show-venue">Big J's Side Porch</h3>
-              <p class="show-location">Clinton, LA</p>
-            </div>
-            <span class="show-time">7:00 PM</span>
-          </li>
-          <li class="show-item" data-date="2026-06-20">
-            <span class="show-date"><span class="show-month">Jun</span><span class="show-day">20</span></span>
-            <div class="show-info">
-              <h3 class="show-venue">Brickyard South</h3>
-              <p class="show-location">Baton Rouge, LA</p>
-            </div>
-            <span class="show-time">9:00 PM</span>
-          </li>
-          <li class="show-item" data-date="2026-06-27">
-            <span class="show-date"><span class="show-month">Jun</span><span class="show-day">27</span></span>
-            <div class="show-info">
-              <h3 class="show-venue">The Moonlight Inn</h3>
-              <p class="show-location">French Settlement, LA</p>
-            </div>
-            <span class="show-time">9:00 PM</span>
-          </li>
-          <li class="show-item" data-date="2026-08-28">
-            <span class="show-date"><span class="show-month">Aug</span><span class="show-day">28</span></span>
-            <div class="show-info">
-              <h3 class="show-venue">Charlie's Lounge</h3>
-              <p class="show-location">Addis, LA</p>
-            </div>
-            <span class="show-time">8:00 PM</span>
-          </li>
-          <li class="show-item" data-date="2026-08-29">
-            <span class="show-date"><span class="show-month">Aug</span><span class="show-day">29</span></span>
-            <div class="show-info">
-              <h3 class="show-venue">The Moonlight Inn</h3>
-              <p class="show-location">French Settlement, LA</p>
-            </div>
-            <span class="show-time">9:00 PM</span>
-          </li>
-          
-          <li class="show-item" data-date="2026-10-10">
-            <span class="show-date"><span class="show-month">Oct</span><span class="show-day">10</span></span>
-            <div class="show-info">
-              <h3 class="show-venue">Private Event</h3>
-              <p class="show-location">Baton Rouge, LA</p>
-            </div>
-            <span class="show-time">TBA</span>
-          </li>
-
-          <li class="show-item" data-date="2026-10-24">
-            <span class="show-date"><span class="show-month">Oct</span><span class="show-day">24</span></span>
-            <div class="show-info">
-              <h3 class="show-venue">The Moonlight Inn</h3>
-              <p class="show-location">French Settlement, LA</p>
-            </div>
-            <span class="show-time">9:00 PM</span>
-          </li>
-          <li class="show-item" data-date="2026-12-19">
-            <span class="show-date"><span class="show-month">Dec</span><span class="show-day">19</span></span>
-            <div class="show-info">
-              <h3 class="show-venue">The Moonlight Inn</h3>
-              <p class="show-location">French Settlement, LA</p>
-            </div>
-            <span class="show-time">9:00 PM</span>
-          </li>
-        </ol>
+        <ol class="shows-list" id="showsList" role="list" aria-live="polite"></ol>
+        <p id="showsEmpty" class="setlist-note" hidden>No public Night Hog shows are currently listed. Check back soon or <a href="#booking">book the band</a>.</p>
       </div>
     </section>
 
@@ -2812,5 +2730,8 @@ document.querySelectorAll('.photo-item img').forEach(img => {
 });
 
 </script>
+
+  <script src="gigs-feed.js"></script>
+  <script src="nighthog-calendar.js"></script>
 </body>
 </html>

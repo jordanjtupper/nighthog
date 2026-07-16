@@ -49,6 +49,15 @@ window.NIGHT_HOG_GIGS = [
     status: "public"
   },
   {
+    date: "2026-08-21",
+    startTime: "21:00",
+    endTime: "00:00",
+    venue: "The Warehouse Saloon",
+    city: "Maurepas",
+    state: "LA",
+    status: "public"
+  },
+  {
     date: "2026-08-28",
     startTime: "20:00",
     endTime: "23:00",
@@ -63,6 +72,15 @@ window.NIGHT_HOG_GIGS = [
     endTime: "00:00",
     venue: "The Moonlight Inn",
     city: "French Settlement",
+    state: "LA",
+    status: "public"
+  },
+  {
+    date: "2026-09-26",
+    startTime: "21:00",
+    endTime: "00:00",
+    venue: "Scoreboards",
+    city: "Denham Springs",
     state: "LA",
     status: "public"
   },

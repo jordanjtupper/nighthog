@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Jordan Tupper — Bass, Vocals &amp; Music Education</title>
+<meta name="description" content="Jordan Tupper is a Baton Rouge, Louisiana-based bassist, vocalist, music educator, and band director. Founding member of Night Hog and performer with Standley, Tupper &amp; Petersen." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #f4ecdf;
+    --charcoal: #1b1712;
+    --charcoal-deep: #120f0b;
+    --brass: #c9974c;
+    --brass-soft: #e3c48b;
+    --line: rgba(244, 236, 223, 0.14);
+    --muted: rgba(244, 236, 223, 0.62);
+  }
+
+  * { box-sizing: border-box; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--charcoal-deep);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .jt-card {
+    max-width: 880px;
+    margin: 0 auto;
+    background:
+      radial-gradient(120% 140% at 15% -10%, rgba(201,151,76,0.16), transparent 55%),
+      var(--charcoal);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+
+  .jt-grid {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    gap: 0;
+  }
+
+  .jt-photo-wrap {
+    position: relative;
+    background: #0d0b08;
+    border-right: 1px solid var(--line);
+  }
+
+  .jt-photo-wrap img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: sepia(0.12) saturate(0.9) contrast(1.02);
+  }
+
+  .jt-body {
+    padding: 44px 48px 40px;
+  }
+
+  .jt-eyebrow {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Inter', sans-serif;
+    font-size: 11.5px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--brass-soft);
+    margin: 0 0 14px;
+  }
+
+  .jt-eyebrow::before {
+    content: "";
+    width: 22px;
+    height: 1px;
+    background: var(--brass);
+    display: inline-block;
+  }
+
+  h1.jt-name {
+    font-family: 'Fraunces', serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size: clamp(2.1rem, 4vw, 2.9rem);
+    line-height: 1.05;
+    margin: 0 0 6px;
+    letter-spacing: -0.01em;
+  }
+
+  .jt-role {
+    font-family: 'Fraunces', serif;
+    font-style: italic;
+    font-weight: 400;
+    color: var(--brass-soft);
+    font-size: 1.08rem;
+    margin: 0 0 22px;
+  }
+
+  .jt-bio {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: var(--ink);
+    margin: 0 0 22px;
+    max-width: 52ch;
+  }
+
+  .jt-bio strong {
+    color: var(--brass-soft);
+    font-weight: 600;
+  }
+
+  .jt-bands {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 0 0 26px;
+  }
+
+  .jt-badge {
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    padding: 6px 12px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--muted);
+  }
+
+  .jt-badge b { color: var(--brass-soft); font-weight: 600; }
+
+  .jt-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    padding-top: 20px;
+    border-top: 1px solid var(--line);
+  }
+
+  .jt-links a {
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 13.5px;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 2px;
+    transition: color 0.15s ease;
+  }
+
+  .jt-links a:hover { color: var(--brass-soft); }
+
+  .jt-links a::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; bottom: -3px;
+    height: 1px;
+    background: var(--brass);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.2s ease;
+  }
+
+  .jt-links a:hover::after { transform: scaleX(1); }
+
+  @media (max-width: 620px) {
+    .jt-grid { grid-template-columns: 1fr; }
+    .jt-photo-wrap { height: 260px; border-right: none; border-bottom: 1px solid var(--line); }
+    .jt-body { padding: 32px 26px 30px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="jt-card">
+  <div class="jt-grid">
+    <div class="jt-photo-wrap">
+      <img src="https://nighthogbr.com/images/jordan-tupper.jpg" alt="Jordan Tupper, bassist and vocalist" loading="lazy" />
+    </div>
+    <div class="jt-body">
+      <p class="jt-eyebrow">Baton Rouge, Louisiana</p>
+      <h1 class="jt-name">Jordan Tupper</h1>
+      <p class="jt-role">Bass &amp; Vocals — Music Educator &amp; Band Director</p>
+
+      <p class="jt-bio">
+        Jordan is a Baton Rouge–based bassist, vocalist, music educator, and band director
+        with years of experience leading bands, teaching music, directing worship, and
+        performing live across Louisiana. He's a <strong>Grammy Music Educator Award
+        Quarterfinalist</strong> and a founding member of Night Hog.
+      </p>
+
+      <div class="jt-bands">
+        <span class="jt-badge">Founding member — <b>Night Hog</b></span>
+        <span class="jt-badge">Performer — <b>Standley, Tupper &amp; Petersen</b></span>
+      </div>
+
+      <div class="jt-links">
+        <a href="https://www.jordantupper.com" target="_blank" rel="me noopener">jordantupper.com</a>
+        <a href="https://www.jordantuppermusic.com" target="_blank" rel="me noopener">Jordan Tupper Music</a>
+        <a href="https://www.youtube.com/@jordanjtupper" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://linkedin.com/in/jordantupper225" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://www.facebook.com/jordan.tupper" target="_blank" rel="noopener">Facebook</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

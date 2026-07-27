@@ -75,6 +75,15 @@ window.NIGHT_HOG_GIGS = [
     state: "LA",
     status: "public"
   },
+    {
+    date: "2026-09-13",
+    startTime: "15:00",
+    endTime: "18:00",
+    venue: "T & T Lounge",
+    city: "Zachary",
+    state: "LA",
+    status: "public"
+  },
   {
     date: "2026-09-26",
     startTime: "21:00",

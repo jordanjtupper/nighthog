@@ -76,7 +76,7 @@ window.NIGHT_HOG_GIGS = [
     status: "public"
   },
     {
-    date: "2026-09-13",
+    date: "2026-09-18",
     startTime: "15:00",
     endTime: "18:00",
     venue: "T & T Lounge",

@@ -13,7 +13,7 @@ window.NIGHT_HOG_GIGS = [
     status: "public"
   },
   {
-    date: "2026-06-13",
+    date: "2026-10-17",
     startTime: "19:00",
     endTime: "22:00",
     venue: "BeerBellys",

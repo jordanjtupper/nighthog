@@ -103,7 +103,7 @@ window.NIGHT_HOG_GIGS = [
     status: "private",
     displayTime: "TBA"
   },
-    {
+  {
     date: "2026-10-17",
     startTime: "21:00",
     endTime: "01:00",

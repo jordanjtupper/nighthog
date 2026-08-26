@@ -13,13 +13,13 @@ window.NIGHT_HOG_GIGS = [
     status: "public"
   },
   {
-    date: "2026-10-17",
-    startTime: "19:00",
-    endTime: "22:00",
-    venue: "BeerBellys",
-    city: "Plaquemine",
+    date: "2026-10-02",
+    startTime: "18:00",
+    endTime: "21:00",
+    venue: "Private Event",
+    city: "Baton Rouge",
     state: "LA",
-    status: "public"
+    status: "Private"
   },
   {
     date: "2026-06-19",

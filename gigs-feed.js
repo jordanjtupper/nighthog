@@ -22,11 +22,11 @@ window.NIGHT_HOG_GIGS = [
     status: "Private"
   },
   {
-    date: "2026-06-19",
-    startTime: "19:00",
-    endTime: "22:00",
-    venue: "Big J's Side Porch",
-    city: "Clinton",
+    date: "2026-12-05",
+    startTime: "18:00",
+    endTime: "21:00",
+    venue: "Private Event",
+    city: "Zachary",
     state: "LA",
     status: "public"
   },

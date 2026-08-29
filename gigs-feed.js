@@ -4,11 +4,11 @@
 
 window.NIGHT_HOG_GIGS = [
   {
-    date: "2026-06-12",
-    startTime: "20:00",
-    endTime: "23:00",
-    venue: "Scoreboards",
-    city: "Denham Springs",
+    date: "2026-10-31",
+    startTime: "18:00",
+    endTime: "21:00",
+    venue: "Private Event - Halloween Party",
+    city: "Baton Rouge",
     state: "LA",
     status: "public"
   },

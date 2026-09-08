@@ -94,7 +94,7 @@ window.NIGHT_HOG_GIGS = [
     status: "public"
   },
   {
-    date: "2026-10-10",
+    date: "2026-11-21",
     startTime: "20:00",
     endTime: "23:00",
     venue: "Private Event",

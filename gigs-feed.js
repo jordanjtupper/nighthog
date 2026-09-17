@@ -31,11 +31,11 @@ window.NIGHT_HOG_GIGS = [
     status: "public"
   },
   {
-    date: "2026-06-20",
+    date: "2026-11-27",
     startTime: "21:00",
     endTime: "00:00",
-    venue: "Brickyard South",
-    city: "Baton Rouge",
+    venue: "Scoreboards",
+    city: "Denham Springs",
     state: "LA",
     status: "public"
   },
@@ -77,8 +77,8 @@ window.NIGHT_HOG_GIGS = [
   },
     {
     date: "2026-09-18",
-    startTime: "15:00",
-    endTime: "18:00",
+    startTime: "21:00",
+    endTime: "01:00",
     venue: "T & T Lounge",
     city: "Zachary",
     state: "LA",

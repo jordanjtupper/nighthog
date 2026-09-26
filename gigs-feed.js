@@ -49,11 +49,11 @@ window.NIGHT_HOG_GIGS = [
     status: "public"
   },
   {
-    date: "2026-08-21",
-    startTime: "21:00",
-    endTime: "00:00",
-    venue: "The Warehouse Saloon",
-    city: "Maurepas",
+    date: "2026-10-30",
+    startTime: "22:00",
+    endTime: "1:00",
+    venue: "Brickyard South Zombie Prom",
+    city: "Baton Rouge",
     state: "LA",
     status: "public"
   },

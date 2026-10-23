@@ -13,13 +13,13 @@ window.NIGHT_HOG_GIGS = [
     status: "public"
   },
   {
-    date: "2026-10-02",
-    startTime: "18:00",
-    endTime: "21:00",
-    venue: "Private Event",
+    date: "2026-12-12",
+    startTime: "20:00",
+    endTime: "1:00",
+    venue: "Brickyard South- Hockey Victory Party",
     city: "Baton Rouge",
     state: "LA",
-    status: "Private"
+    status: "Public"
   },
   {
     date: "2026-12-05",
